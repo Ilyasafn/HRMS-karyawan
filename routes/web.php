@@ -15,7 +15,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
         return Inertia::render('dashboard');
     })->name('dashboard');
 
-    // Route::resource('divisi', DivisiController::class);
+    Route::resource('divisi', DivisiController::class);
     // Route::resource('karyawan', KaryawanController::class);
     // Route::resource('jabatan', JabatanController::class);
 });

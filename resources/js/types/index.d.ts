@@ -42,11 +42,11 @@ export interface User {
     [key: string]: unknown; // This allows for additional properties...
 }
 
-// export type Divisi = {
-//     id: number;
-//     nama: string;
-//     keterangan?: string;
-// };
+export type Divisi = {
+    id: number;
+    nama: string;
+    keterangan?: string;
+};
 
 // export type Jabatan = {
 //     id: number;
