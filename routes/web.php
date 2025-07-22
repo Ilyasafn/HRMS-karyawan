@@ -16,7 +16,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     })->name('dashboard');
 
     // Route::resource('divisi', DivisiController::class);
-    // Route::resource('karyawan', KaryawanController::class);
+    Route::resource('karyawan', KaryawanController::class);
     // Route::resource('jabatan', JabatanController::class);
 });
 

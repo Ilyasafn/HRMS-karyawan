@@ -53,14 +53,14 @@ export interface User {
 //     nama: string;
 // };
 
-// export type Karyawan = {
-//     id: number;
-//     nama: string;
-//     nik: number;
-//     divisi: Divisi; // there's a relationship with Divisi
-//     jabatan: Jabatan; // relations with Jabatan
-//     alamat: string;
-//     nomor_telepon: string;
-//     tgl_masuk: Date;
-//     status: string[]; // e.g., 'Aktif', 'Tidak Aktif'
-// };
+export type Karyawan = {
+    id: number;
+    nama: string;
+    nik: number;
+    divisi: Divisi; // there's a relationship with Divisi
+    jabatan: Jabatan; // relations with Jabatan
+    alamat: string;
+    nomor_telepon: string;
+    tgl_masuk: Date;
+    status: string[]; // e.g., 'Aktif', 'Tidak Aktif'
+};
