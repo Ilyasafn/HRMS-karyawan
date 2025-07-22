@@ -16,8 +16,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     })->name('dashboard');
 
     // Route::resource('divisi', DivisiController::class);
+    Route::resource('jabatan', JabatanController::class);
     // Route::resource('karyawan', KaryawanController::class);
-    // Route::resource('jabatan', JabatanController::class);
 });
 
 require __DIR__.'/settings.php';

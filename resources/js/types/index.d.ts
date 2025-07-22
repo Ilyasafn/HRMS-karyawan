@@ -48,10 +48,10 @@ export interface User {
 //     keterangan?: string;
 // };
 
-// export type Jabatan = {
-//     id: number;
-//     nama: string;
-// };
+export type Jabatan = {
+    id: number;
+    nama: string;
+};
 
 // export type Karyawan = {
 //     id: number;
